@@ -9,12 +9,12 @@ import pickle
 # 写入数据
 # data_01 = { "name": "张三", "age": 18 }
 #
-# with open(r"D:\project1110\fileTest\test_data", mode="wb") as fobj:
+# with open(r"D:\python\fileTest\test_data", mode="wb") as fobj:
 #     pickle.dump(data_01, fobj)
 
 
 # 读取数据
-with open(r"D:\project1110\fileTest\test_data", mode="rb") as fobj:
+with open(r"D:\python\fileTest\test_data", mode="rb") as fobj:
     data_02 = pickle.load(fobj)
     print(data_02)
     print(type(data_02))
