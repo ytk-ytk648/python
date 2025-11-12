@@ -6,7 +6,7 @@
 3、关闭文件
 '''
 
-test_file = r"D:\project1110\fileTest\test.txt"
+test_file = r"D:\python\fileTest\test.txt"
 
 # fobj = open(test_file, mode="r")
 #

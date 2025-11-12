@@ -25,4 +25,4 @@ def webUvByRegex(web_log):
             print("客户端地址: %s, 访问次数: %s" % (ip, number))
 
 if __name__ == '__main__':
-    webUvByRegex(r"D:\project1110\fileTest\access_log")
+    webUvByRegex(r"D:\python\fileTest\access_log")
